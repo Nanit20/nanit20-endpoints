@@ -44,7 +44,7 @@ class Characters(db.Model):
             "id": self.id,
             "name": self.name,
             "age": self.age,
-            "heigh": self.heigh
+            "height": self.heigh
             # do not serialize the password, its a security breach
         }
     
